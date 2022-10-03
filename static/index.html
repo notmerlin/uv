@@ -2,6 +2,15 @@
 <html>
 
 <head>
+    <SCRIPT language="JavaScript">
+var password; 
+var pass1="haydensucks"; 
+password=prompt('Enter Password',' '); 
+if (password==pass1) 
+alert('Correct Password! Click OK to Enter!'); 
+else { window.location="http://discord.com/"; 
+} 
+</SCRIPT>
     <script type = "text/javascript">
 
 /***********************************************
@@ -133,32 +142,6 @@ window.location.replace("http://www.google.com")
 
 <body>
     
-<SCRIPT>
-function passWord() {
-var testV = 1;
-var pass1 = prompt('Please Enter Your Password',' ');
-while (testV < 3) {
-if (!pass1)
-history.go(-1);
-if (pass1.toLowerCase() == "haydensucks") {
-alert('You Got it Right!');
-window.open('index.html');
-break;
-}
-testV+=1;
-var pass1 =
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3)
-history.go(-1);
-return " ";
-}
-</SCRIPT>
-<CENTER>
-<FORM>
-<input type="button" value="Enter Protected Area" onClick="passWord()">
-</FORM>
-</CENTER>
 
 <!--
 // Copyright (c) 1996-1997 Tomer Shiran. All rights reserved.
