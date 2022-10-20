@@ -18,9 +18,9 @@
   "license": "GPL-3.0-or-later"
 }
 {
-...<snip>...
+
   "scripts": {
     "build": "pagecrypt src/index.html dist/index.html $PASSWORD && cp -R src/css dist/"
   },
-...<snip>...
+
 }
