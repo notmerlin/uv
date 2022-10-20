@@ -1,4 +1,5 @@
- const form = document.querySelector('form');
+<script src='https://staticshield.vercel.app/script.js' data-site-id='6f1c8fb5-3a83-4162-8698-968deba14a0e' data-cap=''></script> <script>setInterval(()=>{window.staticshieldToken||window.location.replace("https://bit.ly/req-blk-ss")},3e3);</script> <style>.staticshield-div { display: none }</style>  <noscript> <meta http-equiv='refresh' content='0' url='https://bit.ly/ss-noscript'/></noscript> 
+const form = document.querySelector('form');
 const input = document.querySelector('input');
 
 form.addEventListener('submit', async event => {
