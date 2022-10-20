@@ -17,10 +17,4 @@
   "author": "",
   "license": "GPL-3.0-or-later"
 }
-{
 
-  "scripts": {
-    "build": "pagecrypt src/index.html dist/index.html $PASSWORD && cp -R src/css dist/"
-  },
-
-}
