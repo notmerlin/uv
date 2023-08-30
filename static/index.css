@@ -15,8 +15,7 @@
 
 body {
     margin: 0;
-    background: #111;
-    display: flex;
+    background: #000000;
     flex-direction: column;
     min-height: 100vh;
     animation: fadeInAnimation ease-in-out 0.3s;
@@ -92,7 +91,7 @@ form {
 }
 
 form input {
-    background: none;
+    background: #000000;
     font-family: inherit;
     padding: 0px 17px;
     height: 48px;
@@ -103,7 +102,7 @@ form input {
     width: 350px;
     margin-top: 5px;
     border-radius: 50px;
-    color: #FFF;
+    color:  #0000FF;
 }
 
 form input:focus {
